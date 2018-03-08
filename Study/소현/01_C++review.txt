@@ -1,0 +1,102 @@
+ 2018 C++   STUDY.cpp 콘솔 응용 프로그램의 진입점을 정의합니다.
+
+
+#include stdafx.h
+
+class Widget {
+public
+	Widget();
+	Widget(const Widget& rhs);
+	Widget& operator = (const Widget)
+
+};
+class GamePlayer {
+	enum { NumTurns = 5}; numturn을 5에대한 기호식 이름으로 만듬.
+	enum은 #define처럼 쓸데없는 메모리할당을 저지르지 않음. 
+
+	int scores[NumTurns]; 
+};
+int main()
+{
+	ch 1.4
+	int a(10); c++답게 변수선언
+	int b(a);  10이 상수. b는 a를 복제해서 만들어진다.
+	return 0; 윤교수님이 return 0 쓰는건 c++스타일아니라고
+	ch 1.6
+	할당 ex) 180305 stl퀴즈
+
+	int p = new int{ 100 };
+	p = 200;
+	delete p;
+
+	 참조자 값을 변경하면 원본도 변경된다. 
+
+	 effective c++
+	 #define ASPECT_RATIO 1.63 = const double AspectRatio = 1.63
+	 define을 상수로 교체할 때 상수포인터를 정의할 때 꼭 const로 선언해주어야함. 가르키는 대상까지.
+	 ex) const char const authorName = LEESO;-- const stdstring authorName(LEESO);
+	 클래스 멤버를 상수로 정의할 때 상수의 범위를 클래스로 한정하고싶으면 static으로 만들어야함. ㅇ
+	 define쓰는거보다 매크로,인라인
+
+	 const를 자주 들이대보자
+
+	char greeting[] = Hello;
+	char p = greeting;  비상수포인터, 비상수 데이터
+	const charp = greeting;비상수포인터, 상수데이터
+	char const p = greeting;  상수포인터, 비상수 데이터
+	const char const p = greeting;  상수포인터, 상수데이터
+	--const기준  이 왼쪽에 있으면 가리키는 대상이 상수, 아니면 포인터 자체가 상수. 
+	 const 멤버함수 일 때 const는 해당 멤버함수가 상수 객체에 대해 호출될 함수이다. 라는 뜻
+	 왜중요 1. 클래스의 인터페이스보기 편하도록. 변겨ㅇ할 수 있는 함수와 없는 함수 구분. 
+	 2. 키워드 통해 상수객체 사용할 수 있도록.  
+	 const 있는 애들은 오버로딩 가능. 
+	 상수멤버함수 해당객체의 상태바꾸지않음. 비상수는 묶인거 없음. 상수 비상수가 기능이같으면 비상수버젼이 상수버젼호출하게끔.
+	 1-4. 클래스의 모든것을 초기화하자
+	 ex) 대입과 초기화는 다르다. 주의. 
+	 대입
+	{
+		theName = name;
+		theAddress = adress;
+		thePhone = phones;
+		numTimesConsulted = 0; 
+	}
+
+	클래스~~~~  theName(name), theAddress(address) ...  초기화
+	정적개체 프로그램이 끝날때까지 살아있음.
+	1. 전역객체
+	2. 네임스페이스 유효범위에서 정의된 객체--네임스페이스는 어디까지 유효하지 아 네임스페이스가 포함한 그범위
+	3. 클래스안에서 스태틱으로 선언된객체 그 define대신 쓰는거할때. 상수의 사본 개수가 한개넘지못하게.
+	----------4. 함수안에서 스태틱이면 어음어...-----------------여기부터
+
+	stl복습
+	app-->파일끝에서부터 이거때문에 자꾸 글자깨짐
+	change함수를
+	void change(int &x, int& y)
+	{
+		int temp = &x;
+		x = y;
+		&y = temp;
+	}
+	 &x가 주소값이 되어서..(&x)이렇게된거고...가 주소에 있는 값을 반환해서 &x를 넘겨서 바뀌었지만..&는 마치 상쇄된...
+	이렇게 푼건답이
+	void change(int &x, int &y)
+	{
+		int temp = x;
+		x = y;
+		y = temp;
+	}
+	이렇게 간단하고...
+	원본이 왜 안바뀌냐면 그냥 넘기면 값이 복사되어서 넘어가니깐
+
+	Q6. 템플릿
+	template class T이거 왜 말해줘야되지 얘가 뭔지몰라서? 
+	뒷장:템플릿은 암시적 인터페이스랑..컴파일타임다형성...--
+	--------------------------------이게머여-------------------------------------
+	void change(T&  x, T& y)
+	{
+		T temp = x;
+		x = y;
+		y = temp;
+	}
+
+}
