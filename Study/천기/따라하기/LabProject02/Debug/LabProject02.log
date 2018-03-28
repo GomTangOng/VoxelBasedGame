@@ -1,0 +1,9 @@
+﻿  GameFramework.cpp
+c:\users\blueb\desktop\다이렉트x\labprojects\labproject02\gameframework.h(35): error C2086: 'ID3D12Debug *CGameFramework::m_pd3dDebugController': 재정의
+  c:\users\blueb\desktop\다이렉트x\labprojects\labproject02\gameframework.h(24): note: 'CGameFramework::m_pd3dDebugController' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  LabProject02.cpp
+c:\users\blueb\desktop\다이렉트x\labprojects\labproject02\gameframework.h(35): error C2086: 'ID3D12Debug *CGameFramework::m_pd3dDebugController': 재정의
+  c:\users\blueb\desktop\다이렉트x\labprojects\labproject02\gameframework.h(24): note: 'CGameFramework::m_pd3dDebugController' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...

@@ -1,0 +1,10 @@
+﻿  GameFramework.cpp
+  LabProject02.cpp
+  코드를 생성하고 있습니다.
+c:\users\blueb\desktop\다이렉트x\labprojects\labproject02\labproject02.cpp(161): warning C4715: 'WndProc': 모든 제어 경로에서 값을 반환하지는 않습니다.
+c:\users\blueb\desktop\다이렉트x\labprojects\labproject02\labproject02.cpp(68): warning C4715: 'wWinMain': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  22 of 25 functions (88.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  LabProject02.vcxproj -> C:\Users\blueb\Desktop\다이렉트x\LabProjects\Release\LabProject02.exe
