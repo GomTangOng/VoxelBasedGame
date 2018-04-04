@@ -11,11 +11,11 @@ private:
 	IDXGIFactory4 *m_pdxgiFactory; // dxgi 팩토리 인터페이스에 대한 포인터
 	IDXGISwapChain3 *m_pdxgiSwapChain; // 스왑체인인터페이스에 대한 포인터
 	// 주로 리소스를 생성하기 위하여 필요하다.
-	ID3D12Device *m_pd3Device; // DIRECT3D 디바이스 인터페이스에 대한 포인터이다
+	ID3D12Device *m_pd3dDevice; // DIRECT3D 디바이스 인터페이스에 대한 포인터이다
 							   // 주로 리소스를 생성하기 위하여 필요하다.
 
 	bool m_bMsaa4xEnable = false;
-	UINT m_nMsaa4xQuailityLevels = 0;
+	UINT m_nMsaa4xQualityLevels = 0;
 	
 	// MSAA 다중 샘플링을 활성화하고 다중 샘플링 레벨을 설정한다.
 	static const UINT m_nSwapChainBuffers = 2;
@@ -24,9 +24,9 @@ private:
 	UINT m_nSwapChainBufferIndex;
 
 	// 현재 스왑 체인의 후면 버퍼 인덱스이다.
-	ID3D12Resource *m_ppdRenderTargetBuffer[m_nSwapChainBuffers];
+	ID3D12Resource *m_ppd3dRenderTargetBuffers[m_nSwapChainBuffers];
 	ID3D12DescriptorHeap *m_pd3dRtvDescriptorHeap;
-	UINT m_nDsvDescriptorIncrementSize;
+	UINT m_nRtvDescriptorIncrementSize;
 
 	// 렌더 타겟 버퍼. 서술자 힙 인터페이스 포인터, 렌더 타켓 서술자 원소의 크기이다.
 	ID3D12CommandQueue *m_pd3dDepthStencilBuffer;
@@ -46,6 +46,9 @@ private:
 #if defined(_DEBUG)
 	ID3D12Debug *m_pd3dDebugController;
 #endif
+
+	D3D12_VIEWPORT m_d3dViewport;
+	D3D12_RECT m_d3dScissorRect;
 	//뷰포트와 씨저 사각형이다.
 public:
 	CGameFramework();
@@ -66,16 +69,16 @@ public:
 
 	void CreateRenderTargetView();
 	void CreateDepthStencilView();
-	// 렌더 타켓 뷰와 깊이-스텐실 뷰를 생성하는 함수이다
+	// 타켓 뷰와 깊이-스텐실 뷰를 생성하는 함수이다
 
 	void BuildObjects();
-	void RealeaseObjects();
+	void ReleaseObjects();
 	// 렌더링할 메쉬와 게임 객체를 생성하고 소멸하는 함수이다
 
 	//프레임워크의 핵심(사용자 입력, 애니메이션, 렌더링)을 구성하는 함수이다.
 
 	void ProcessInput();
-	void AnimateObject();
+	void AnimateObjects();
 	void FrameAdvance();
 
 	void WaitForGpuComplete();
