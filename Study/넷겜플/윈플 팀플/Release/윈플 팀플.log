@@ -1,0 +1,25 @@
+﻿  백업.cpp
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\spaceship.h(15): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\spaceship.h(18): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\백업.cpp(310): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\백업.cpp(311): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\백업.cpp(321): error C2668: 'SpaceShip::setxPos': 오버로드된 함수에 대한 호출이 모호합니다.
+  c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\spaceship.h(15): note: 'void SpaceShip::setxPos(float)'일 수 있습니다.
+  c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\spaceship.h(14): note: 또는       'void SpaceShip::setxPos(int)'
+  c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\백업.cpp(321): note: 인수 목록 '(double)'을(를) 일치시키는 동안
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\백업.cpp(322): error C2668: 'SpaceShip::setyPos': 오버로드된 함수에 대한 호출이 모호합니다.
+  c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\spaceship.h(18): note: 'void SpaceShip::setyPos(float)'일 수 있습니다.
+  c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\spaceship.h(17): note: 또는       'void SpaceShip::setyPos(int)'
+  c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\백업.cpp(322): note: 인수 목록 '(double)'을(를) 일치시키는 동안
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\백업.cpp(330): error C2668: 'SpaceShip::setxPos': 오버로드된 함수에 대한 호출이 모호합니다.
+  c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\spaceship.h(15): note: 'void SpaceShip::setxPos(float)'일 수 있습니다.
+  c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\spaceship.h(14): note: 또는       'void SpaceShip::setxPos(int)'
+  c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\백업.cpp(330): note: 인수 목록 '(double)'을(를) 일치시키는 동안
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\백업.cpp(331): error C2668: 'SpaceShip::setyPos': 오버로드된 함수에 대한 호출이 모호합니다.
+  c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\spaceship.h(18): note: 'void SpaceShip::setyPos(float)'일 수 있습니다.
+  c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\spaceship.h(17): note: 또는       'void SpaceShip::setyPos(int)'
+  c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\백업.cpp(331): note: 인수 목록 '(double)'을(를) 일치시키는 동안
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\백업.cpp(356): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\백업.cpp(357): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\백업.cpp(716): error C2660: 'SCENE::draw': 함수는 5개의 매개 변수를 사용하지 않습니다.
+  c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\scene.h(18): note: 'SCENE::draw' 선언을 참조하십시오.

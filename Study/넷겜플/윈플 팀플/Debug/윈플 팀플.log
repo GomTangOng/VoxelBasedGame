@@ -1,0 +1,43 @@
+﻿  ITEM.cpp
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\spaceship.h(15): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\spaceship.h(18): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  main.cpp
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\spaceship.h(15): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\spaceship.h(18): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\main.cpp(370): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\main.cpp(371): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\main.cpp(379): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\main.cpp(380): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\main.cpp(391): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\main.cpp(392): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\main.cpp(400): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\main.cpp(401): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\main.cpp(764): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\main.cpp(765): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  scene.cpp
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\scene.cpp(64): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\scene.cpp(70): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\scene.cpp(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\scene.cpp(83): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\scene.cpp(91): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\scene.cpp(101): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\scene.cpp(104): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+  SpaceShip.cpp
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\spaceship.h(15): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\spaceship.h(18): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  UI.cpp
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\spaceship.h(15): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\spaceship.h(18): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\ui.cpp(46): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: 'sprintf' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\scene.cpp(45): warning C4715: 'SCENE::buttonCheck': 모든 제어 경로에서 값을 반환하지는 않습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\item.cpp(54): warning C4715: 'ITEM::getDir': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  윈플 팀플.vcxproj -> C:\Users\김정연\Desktop\라젠카 프로젝트\Debug\윈플 팀플.exe

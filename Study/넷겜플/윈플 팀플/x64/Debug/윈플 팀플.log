@@ -1,0 +1,15 @@
+﻿  main.cpp
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\spaceship.h(15): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\spaceship.h(18): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\main.cpp(62): warning C4244: 'return': 'WPARAM'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\main.cpp(383): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\main.cpp(384): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\main.cpp(392): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\main.cpp(393): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\main.cpp(404): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\main.cpp(405): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\main.cpp(413): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\main.cpp(414): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\main.cpp(777): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\김정연\desktop\라젠카 프로젝트\윈플 팀플\main.cpp(778): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  윈플 팀플.vcxproj -> C:\Users\김정연\Desktop\라젠카 프로젝트\x64\Debug\윈플 팀플.exe
