@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="etc">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="etc\Resource">
+      <UniqueIdentifier>{26470317-a4ae-48b9-b186-43aff64abd80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.main">
+      <UniqueIdentifier>{4f20e817-74c4-42cc-836d-36a3f2172dc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.객체">
+      <UniqueIdentifier>{83517577-319e-465f-b727-3b72bc55180a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.객체\Image">
+      <UniqueIdentifier>{32e3903e-949d-4d5b-850c-8cc5a3e7a342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.객체\Text">
+      <UniqueIdentifier>{42c3e9da-9fb7-43a7-9230-4c14bebbc43c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.라이브러리">
+      <UniqueIdentifier>{228aa5c3-7b08-4d5f-b2a8-a76009f8984a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.라이브러리\Utill">
+      <UniqueIdentifier>{581960f3-cd56-48fb-b662-554580dbf744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.라이브러리\Manager">
+      <UniqueIdentifier>{c0f90f43-a3cf-4b08-ab05-8c23dabed121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.라이브러리\Manager\InputManager">
+      <UniqueIdentifier>{68b7a517-f265-4a70-9d9a-212c14c8b54f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.라이브러리\FrameWork">
+      <UniqueIdentifier>{3f3a5c0a-a8cf-4fdf-9a9b-7bdd31cb882d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NewFilter1">
+      <UniqueIdentifier>{bf5fdbbf-1933-417b-90b7-9053f52fe037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.라이브러리\Manager\SceneManager">
+      <UniqueIdentifier>{9beab268-5401-4a78-b6b6-8f1febab17ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.라이브러리\Manager\TimerManager">
+      <UniqueIdentifier>{4012cbe7-a361-42b7-bf9f-2d11294b1cb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.라이브러리\Manager\SoundManager">
+      <UniqueIdentifier>{cd76677e-f48c-4d0d-adf6-4c816587b40c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.라이브러리\Manager\RenderManager">
+      <UniqueIdentifier>{b6f2ed00-121c-48a9-9ecf-e8aabb2b4a29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WindowsProject.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>etc\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>00.main</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>etc</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTon.h">
+      <Filter>02.라이브러리</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WindowsProject.cpp">
+      <Filter>00.main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>etc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WindowsProject.rc">
+      <Filter>etc</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>etc</Filter>
+    </Image>
+    <Image Include="WindowsProject.ico">
+      <Filter>etc</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
